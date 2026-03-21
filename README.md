@@ -1,4 +1,4 @@
-# <p align="center">  Portfolio projects in robotics and ADAS </p>
+# <p align="center">  Portfolio projects in robotics  </p>
 
 In this repository share the **source code** of some projects of my recent courses.
 
@@ -52,14 +52,40 @@ Main project is a self driving car in virtual environment. Physical equivalent i
   </tr>
 </table>
 
+---
+## Next.js implementation, live at:   
+https://portfolio-robotics-nu.vercel.app
+
+Project 2:
+![Platform preview](./images/frontend6.png)
+
+Project 3:
+![Platform preview](./images/frontend4.png)
+
+Project 4:
+![Platform preview](./images/frontend1.png)
+
+Project 5:
+![Platform preview](./images/frontend3.png)
+
+
+Bonus:
+
+Multi-Object Tracking with Poisson Multi-Bernoulli Mixture (PMBM) Filter
+![Platform preview](./images/frontend5.png)
+
+PMBM filter applied on financial instrument
+![Platform preview](./images/frontend2.png)
+
+
+
+
 --- 
 ## Results
 
 All the results from the MicroMasters and extra certificates:
 
 - [edX Micromaster Program](https://credentials.edx.org/records/programs/shared/aeb398577a5c4941aaafc6133845c9d2/)
-
-- [Main project: Autonomous robot course (bottom of page 1)](https://www.student.ladok.se/student/verifiera/intyg/19890130-6475/J16M02CIK4)
 
 - [Robotics: Vision Intelligence and Machine Learning - certificate by University of Pennsylvania](https://courses.edx.org/certificates/cebbf84bc3d549bca3e86871f49b7917)
 
