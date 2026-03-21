@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, useEffect } from 'react';
 import { Play, Pause, RotateCcw, Settings, Eye, EyeOff, Info } from 'lucide-react';
-import DemoShellStyles from './demo-shell-styles';
+import DemoShellStyles from '../_components/demo-shell-styles';
 
 // ============================================================================
 // TYPE DEFINITIONS

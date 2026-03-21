@@ -2,7 +2,7 @@
 
 import React, { useCallback, useEffect, useRef, useState } from 'react';
 import { Pause, Play, RotateCcw } from 'lucide-react';
-import DemoShellStyles from './demo-shell-styles';
+import DemoShellStyles from '../_components/demo-shell-styles';
 
 interface Point {
   x: number;

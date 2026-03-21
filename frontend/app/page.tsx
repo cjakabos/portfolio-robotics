@@ -14,32 +14,32 @@ type DemoConfig = {
   Icon: LucideIcon;
 };
 
-const PMBMSimulation = dynamic(() => import("./pmbm-filter-corrected-tsx"), {
+const PMBMSimulation = dynamic(() => import("./pmbm-filter/page"), {
   ssr: false,
   loading: () => <LoadingState label="Loading PMBM simulation" />,
 });
 
-const FinancialTracker = dynamic(() => import("./financial-kalman-tracker"), {
+const FinancialTracker = dynamic(() => import("./financial-kalman-tracker/page"), {
   ssr: false,
   loading: () => <LoadingState label="Loading financial tracker" />,
 });
 
-const LawnmowerBBR = dynamic(() => import("./lawnmower-bbr"), {
+const LawnmowerBBR = dynamic(() => import("./lawnmower-bbr/page"), {
   ssr: false,
   loading: () => <LoadingState label="Loading lawnmower simulation" />,
 });
 
-const PathPlanner = dynamic(() => import("./path-planner"), {
+const PathPlanner = dynamic(() => import("./path-planner/page"), {
   ssr: false,
   loading: () => <LoadingState label="Loading path planner" />,
 });
 
-const ParticleFilterMap = dynamic(() => import("./particle-filter-map"), {
+const ParticleFilterMap = dynamic(() => import("./particle-filter-map/page"), {
   ssr: false,
   loading: () => <LoadingState label="Loading particle filter map" />,
 });
 
-const KalmanFilterViz = dynamic(() => import("./kalman-filter-viz-fixed"), {
+const KalmanFilterViz = dynamic(() => import("./kalman-filter-viz/page"), {
   ssr: false,
   loading: () => <LoadingState label="Loading Kalman filter visualization" />,
 });

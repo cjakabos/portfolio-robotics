@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { Play, RotateCcw } from 'lucide-react';
-import DemoShellStyles from './demo-shell-styles';
+import DemoShellStyles from '../_components/demo-shell-styles';
 
 // Math utilities
 const mvnrnd = (mean: number[], cov: number[][]): number[] => {

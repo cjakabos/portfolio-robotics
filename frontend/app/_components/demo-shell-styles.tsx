@@ -221,7 +221,7 @@ export default function DemoShellStyles() {
         }
       }
 
-      @media (max-width: 760px) {
+      @media (max-width: 720px) {
         .demo-shell {
           padding: 18px;
         }
@@ -229,11 +229,15 @@ export default function DemoShellStyles() {
         .demo-shell .hero-card,
         .demo-shell .canvas-card,
         .demo-shell .metric-card {
-          border-radius: 20px;
+          border-radius: 22px;
         }
 
         .demo-shell .hero-card {
           padding: 20px;
+        }
+
+        .demo-shell .control-panel {
+          padding: 16px;
         }
 
         .demo-shell .metric-grid-shell {

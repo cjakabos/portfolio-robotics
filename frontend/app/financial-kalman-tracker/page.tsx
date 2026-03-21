@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
 import { TrendingUp, TrendingDown, DollarSign } from 'lucide-react';
-import DemoShellStyles from './demo-shell-styles';
+import DemoShellStyles from '../_components/demo-shell-styles';
 
 type Vector = number[];
 type Matrix = number[][];
