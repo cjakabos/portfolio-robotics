@@ -56,6 +56,21 @@ Main project is a self driving car in virtual environment. Physical equivalent i
 ## Next.js implementation, live at:   
 https://portfolio-robotics-nu.vercel.app
 
+Run locally: 
+
+With docker
+```bash
+docker compose up --build
+```
+
+Or in dev mode:
+```bash
+cd frontend
+npm install
+npm run dev
+
+```
+
 Project 2:
 ![Platform preview](./images/frontend6.png)
 
